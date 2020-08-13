@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vuelta a html y css</title>
+    </head>
+    <body onload="bienvenida()">
+        <header>
+			<h1>Implementando las funciones</h1>
+		</header>
+		<section class="content">
+			<form>
+                <input type="text" id="nombre">
+                <input type="number" id="cedula">
+                <input type="number" id="telefono">
+                <input type= "date" id="fechaNacimiento" >
+                <input type= "text" id="direccion">
+                <input type= "number" id="salarioPorDia">
+                <input type= "number" id="horasTrabajadas">
+				<button type= "submit"  onclick="procesar(event)"> Capturar </button>
+            </form>
+            <div id = "resultado">
+            </div>
+        </section>
+        <script src="js/funt.js"></script>
+    </body>
+</html>
